@@ -1,10 +1,9 @@
 ---
-layout: default
 title: pjwiseman.github.io
 ---
 {% include header.html %}
         <header>
-          <h1>{{title}}</h1>
+          <h1>{{page.title}}</h1>
           <h2></h2>
         </header>
 
@@ -17,6 +16,18 @@ title: pjwiseman.github.io
         <section id="main_content">
         </section>
 
+		<hr>
+		
+		<section id="posts">
+		<ul>
+			{% for post in site.posts %}
+			<li>
+			  <a href="{{ post.url }}">{{ post.title }}</a>
+			</li>
+			{% endfor %}
+		</ul>
+		</section>
+		
         <footer>
         </footer>
 
