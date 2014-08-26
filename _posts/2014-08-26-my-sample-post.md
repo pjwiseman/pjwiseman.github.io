@@ -1,9 +1,7 @@
 ---
 title: My samples
+layout: post
 ---
-{{page.title}}
-==============
-
 A few random test examples.
 
 Some code

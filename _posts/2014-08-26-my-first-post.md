@@ -1,9 +1,7 @@
 ---
 title: My first post
+layout: post
 ---
-{{page.title}}
-==============
-
 This is my first Github-Jekyll post. So far so good.
 
 This is me in 2010.
