@@ -10,10 +10,3 @@ This is me in 2010.
 
 ![This is me](/images/Peter Wiseman.jpg)
 
-Here is some code
-
-{% highlight ruby %}
-def foo
-  puts 'foo'
-end
-{% endhighlight %}
